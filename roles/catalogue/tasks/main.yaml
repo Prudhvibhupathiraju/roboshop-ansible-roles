@@ -7,3 +7,13 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: nodejs    
+
+- name: mongodb setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-setup
+
+- name: setting catalogue service
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: nodejs        
