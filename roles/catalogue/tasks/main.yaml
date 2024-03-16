@@ -11,9 +11,9 @@
 - name: mongodb setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: app-setup
+    tasks_from: mongodb-setuo
 
 - name: setting catalogue service
   ansible.builtin.import_role:
     name: common
-    tasks_from: nodejs        
+    tasks_from: systemd        
