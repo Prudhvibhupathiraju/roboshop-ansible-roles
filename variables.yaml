@@ -7,4 +7,4 @@ MYSQL_HOST: mysql.bhpr.online
 SHIPPING_HOST: shipping.bhpr.online
 RABBITMQ_HOST: rabbitmq.bhpr.online
 DISPATCH_HOST: dispatch.bhpr.online
-PAYMENTS_HOST: payments.bhpr.online
+PAYMENT_HOST: payment.bhpr.online

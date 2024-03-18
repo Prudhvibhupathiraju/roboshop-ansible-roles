@@ -1,0 +1,14 @@
+- name: App-Setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-setup
+
+- name: Setting up Python
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: python
+
+- name: setting up payment service
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd       
