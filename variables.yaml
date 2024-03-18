@@ -3,3 +3,8 @@ REDIS_HOST: redis.bhpr.online
 USER_HOST: user.bhpr.online
 CART_HOST: cart.bhpr.online
 CATALOGUE_HOST: catalogue.bhpr.online
+MYSQL_HOST: mysql.bhpr.online
+SHIPPING_HOST: shipping.bhpr.online
+RABBITMQ: rabbitmq.bhpr.online
+DISPATCH: dispatch.bhpr.online
+PAYMENTS: payments.bhpr.online
