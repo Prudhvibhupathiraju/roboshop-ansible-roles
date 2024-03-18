@@ -1,5 +1,5 @@
 - name: install go
-  ansible.install.dnf:
+  ansible.builtin.dnf:
     name: golang
     state: present
 
