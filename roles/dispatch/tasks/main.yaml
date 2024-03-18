@@ -1,0 +1,14 @@
+- name: App-Setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-setup
+
+- name: Setting up Nodejs
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: go   
+
+- name: setting catalogue service
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd        
