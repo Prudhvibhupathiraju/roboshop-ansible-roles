@@ -5,6 +5,6 @@ CART_HOST: cart.bhpr.online
 CATALOGUE_HOST: catalogue.bhpr.online
 MYSQL_HOST: mysql.bhpr.online
 SHIPPING_HOST: shipping.bhpr.online
-RABBITMQ: rabbitmq.bhpr.online
-DISPATCH: dispatch.bhpr.online
-PAYMENTS: payments.bhpr.online
+RABBITMQ_HOST: rabbitmq.bhpr.online
+DISPATCH_HOST: dispatch.bhpr.online
+PAYMENTS_HOST: payments.bhpr.online
