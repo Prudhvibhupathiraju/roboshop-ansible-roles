@@ -2,3 +2,4 @@ MONGODB_HOST: mongodb.bhpr.online
 REDIS_HOST: redis.bhpr.online
 USER_HOST: user.bhpr.online
 CART_HOST: cart.bhpr.online
+CATALOGUE_HOST: catalogue.bhpr.online
