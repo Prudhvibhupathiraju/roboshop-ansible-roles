@@ -1,6 +1,7 @@
 - name: install go
   ansible.install.dnf:
-  name: golang
+    name: golang
+    state: present
 
 - name: build go application
   ansible.builtin.command: "{{item}}"
